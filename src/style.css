@@ -5,17 +5,23 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-bottom: 50px;
+  background-image: url('https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?w=1060&t=st=1679003035~exp=1679003635~hmac=d6d64b519ea603c8ce1258f1d0c22474ea1bb4a585900494fce9590884a5b9d1');
+}
+
 h1 {
   text-align: center;
-  margin: 15px 0;
+  margin: 25px 0;
   color: blue;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 img {
@@ -25,7 +31,7 @@ img {
 }
 
 #name {
-  font-size: 20px;
+  font-size: 25px;
   margin: 15px 0;
 }
 
@@ -36,9 +42,21 @@ button {
   color: white;
   font-weight: 700;
   background-color: blue;
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 
 button:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 255, 0.8);
+}
+
+footer {
+  display: flex;
+  align-content: center;
+  align-items: flex-end;
+  justify-content: center;
+  height: 50px;
+  bottom: 0;
+  font-size: 20px;
 }
