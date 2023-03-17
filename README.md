@@ -1,5 +1,6 @@
 # SuperHeróis
 Foi construida uma página que sorteia um superherói de forma aleatória, exibindo as informações de nome e foto a partir de uma requisição para uma API externa.
+<img src="./superhero.gif">
 
 ## :computer: Visualize este projeto:
 Acesse a página aqui:
